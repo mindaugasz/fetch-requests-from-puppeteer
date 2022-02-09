@@ -1,0 +1,29 @@
+{
+  "name": "fetch-requests-from-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf ./dist && tsc && node ./dist/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cobalt-intelligence/fetch-requests-from-puppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cobalt-intelligence/fetch-requests-from-puppeteer/issues"
+  },
+  "homepage": "https://github.com/cobalt-intelligence/fetch-requests-from-puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "^13.2.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "@types/puppeteer": "^5.4.4",
+    "typescript": "^4.5.5"
+  }
+}
