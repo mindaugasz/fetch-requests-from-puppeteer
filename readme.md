@@ -8,7 +8,8 @@ This goes through an example of how to use fetch from within Puppeteer. This is 
 
 Clone the repository and run `npm i`.
 
-`npm start` to run it.
+`npm run zillow` to scrape zillow.com
+`npm run realtor` to scrape realtor.com
 
 
 ### Prerequisites
